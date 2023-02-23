@@ -29,6 +29,26 @@ Find your account ID in the Taboola Pixel section of your Taboola Ads dashboard.
 
 > Fields are properties that can/must be sent with certain events
 
+### Event name `string`
+
+`en` defines Taboola's event name. [Learn more](https://help.taboola.com/hc/en-us/articles/360003484314-Defining-and-Creating-Conversions)
+
+### Custom event name `string`
+
+`custom_en` should be provided when 'Custom event name' is selected as `en`
+
+### Revenue `string`
+
+`revenue` is the value of the transaction. Recommended to use along with Purchase event. Must be an integer or decimal value. [Learn more](https://help.taboola.com/hc/en-us/articles/360009027493-Tracking-Dynamic-Conversion-Values)
+
+### Currency `string`
+
+`currency` of the transaction. Recommended to use along with Purchase event. Must be an integer or decimal value. [Learn more](https://help.taboola.com/hc/en-us/articles/360009027493-Tracking-Dynamic-Conversion-Values)
+
+### Order ID `string`
+
+`orderId` of the transaction. Recommended to use along with Purchase event. Must be an integer or decimal value. [Learn more](https://help.taboola.com/hc/en-us/articles/360009027493-Tracking-Dynamic-Conversion-Values)
+
 ## 📝 License
 
 Licensed under the [Apache License](./LICENSE).
