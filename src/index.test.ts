@@ -20,11 +20,10 @@ const dummyClient = {
   fetch: () => undefined,
   set: () => undefined,
   execute: () => undefined,
-  return: () => {},
+  return: () => undefined,
   get: () => undefined,
-  set: () => undefined,
-  attachEvent: () => {},
-  detachEvent: () => {},
+  attachEvent: () => undefined,
+  detachEvent: () => undefined,
 }
 
 const settings = { id: '12345' }
