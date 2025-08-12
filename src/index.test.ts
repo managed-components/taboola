@@ -1,5 +1,5 @@
 import { MCEvent } from '@managed-components/types'
-import { sendEvent } from '.'
+import { sendEvent } from './index'
 
 const isRecentTs = (value: string) => {
   const now = new Date().valueOf()
